@@ -1,5 +1,8 @@
 package com.example.homework14.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Note {
     private Long id;
     private String title;
